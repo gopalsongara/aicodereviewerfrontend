@@ -37,7 +37,7 @@ function App() {
       setLoading(true)
 
       const response = await axios.post(
-        "https://aicodereviewbackend.onrender.comai/review",
+        "https://aicodereviewbackend.onrender.com/ai/get-review",
         { code }
       )
 
