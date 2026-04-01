@@ -17,8 +17,7 @@ import { Bot, Code } from "lucide-react"
 
 function App() {
 
-  const [code, setCode] = useState(`function sum(a,b){
-  return a+b;
+  const [code, setCode] = useState(`
 }`)
 
   const [review, setReview] = useState("")
