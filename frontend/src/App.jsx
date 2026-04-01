@@ -17,8 +17,7 @@ import { Bot, Code } from "lucide-react"
 
 function App() {
 
-  const [code, setCode] = useState(`
-}`)
+  const [code, setCode] = useState()
 
   const [review, setReview] = useState("")
   const [loading, setLoading] = useState(false)
